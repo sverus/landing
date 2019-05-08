@@ -2,7 +2,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 body{
-	font-size: 100%;
+	font-size: 85%;
 	padding: 1em;
   text-align: center;
 }
@@ -239,7 +239,9 @@ flex-direction: column;
 
 
 @media screen and (min-width: 600px){
-
+  body{
+  	font-size: 100%;
+  }
 .cards{
   flex-direction: row;
 }
