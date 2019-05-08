@@ -70,7 +70,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color:  #cc3300;
+  color:  yellow;
 	text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ td {
 button {
 	background-color: #008080;
 	border: none;
-	color: white;
+	color: #ffffff;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -211,9 +211,15 @@ p.example {
   flex-direction: column;
 
 
-  /* flex-wrap: wrap; */
+
+}
+h1{
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
 
+.content{
+box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.4);  
+}
 .card{
 
   display: flex;
@@ -233,15 +239,19 @@ flex-direction: column;
 
 
 .card-img{
-  width:90%;
+  width:100%;
   height:auto;
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
   body{
   	font-size: 100%;
+
   }
 .cards{
   flex-direction: row;
+}
+.card:hover{
+    transform: scale(1.10);
 }
